@@ -1,0 +1,10 @@
+
+  body {
+    background-color: lavender;
+  }
+  hr {
+    color: darkblue;
+    border-style: dotted none none;
+    border-width:5px;
+    width:20%;
+  }
