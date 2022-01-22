@@ -1,13 +1,24 @@
 
+/* light: ccccff
+middle: 8888bb
+dark: 000033 */
+
   body {
-    background-color: lavender;
+    background-color: #ccccff;
+    margin: 0;
   }
   hr {
     border-style: dotted none none;
     border-width:5px;
-    color: darkblue;
+    color: #8888bb;
     width:20%;
   }
   h1, h3{
-    color: darkblue;
+    color: #8888bb;
+    margin: 0;
+  }
+
+  header {
+    background-color: #ccccff;
+    margin:0;
   }
