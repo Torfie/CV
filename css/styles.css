@@ -3,9 +3,9 @@
     background-color: lavender;
   }
   hr {
-    color: darkblue;
     border-style: dotted none none;
     border-width:5px;
+    color: darkblue;
     width:20%;
   }
   h1, h3{
