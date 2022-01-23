@@ -1,3 +1,3 @@
 # Web---Torfie
 Personal CV in HTML
-https://github.com/Torfie/CV
+https://torfie.github.io/CV/
