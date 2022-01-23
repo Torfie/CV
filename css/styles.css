@@ -6,6 +6,7 @@ dark: 000033 */
 
 body {
   background-color: #ccccff;
+  font-family: 'Merriweather', serif;
   margin: 0;
 }
 hr {
@@ -15,11 +16,23 @@ hr {
   width:20%;
 }
 
-h1, h3{
-  color: #8888bb;
+h1{
+  color: #000033;
+  font-family: 'Sacramento', sans-serif;
+  font-size: 5em;
+  margin: 0;
 }
 
-section {
+h2, h3{
+  color: #8888bb;
+  font-family: 'Montserrat', sans-serif;
+}
+
+img {
+  vertical-align: middle;
+}
+
+section, footer {
   bottom: 0;
   color: #444477;
   left: 0;
