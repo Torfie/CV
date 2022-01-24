@@ -45,7 +45,7 @@ img {
   vertical-align: middle;
 }
 
-main {
+header, main {
   margin:0;
 }
 
@@ -53,7 +53,7 @@ section, footer {
   bottom: 0;
   color: #ccccff;
   left: 0;
-  margin: auto;
+  margin: 5rem auto 5rem auto ;
   right: 0;
   top:0;
   width: 75%;
@@ -78,6 +78,7 @@ table {
   text-align: left;
 }
 .headerSection{
+  margin: 0 auto 5rem auto;
   text-align: center;
 }
 
