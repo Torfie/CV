@@ -7,29 +7,46 @@ dark: 000033 */
 body {
   background-color: #ccccff;
   font-family: 'Merriweather', serif;
+  font-size: 1.25em;
   margin: 0;
 }
 hr {
   border-style: dotted none none;
   border-width:5px;
   color: #8888bb;
+  margin-top: 5%;
   width:20%;
 }
 
 h1{
   color: #000033;
   font-family: 'Sacramento', sans-serif;
-  font-size: 5em;
+  font-size: 7rem;
   margin: 0;
 }
 
-h2, h3{
+h2 {
   color: #8888bb;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Merriweather';
+  font-size: 3rem;
+  font-weight: bolder;
+  margin: 0;
+  text-align: center;
+}
+
+h3{
+  color: #8888bb;
+  font-family: 'Merriweather';
+  font-size: 2rem;
+  margin:0;
 }
 
 img {
   vertical-align: middle;
+}
+
+main {
+  margin:0;
 }
 
 section, footer {
@@ -37,21 +54,64 @@ section, footer {
   color: #444477;
   left: 0;
   margin: auto;
-  position:relative;
   right: 0;
-  top: 0;
   width: 75%;
 }
 
+table {
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+.sectionIcone{
+  width:15%;
+}
+
+.sectionContent{
+  width:75%;
+}
+
+.table{
+  margin: 0 auto;
+  text-align: left;
+}
 .headerSection{
   text-align: center;
 }
 
+.attributions{
+  font-size: 0.5rem;
+}
+
 .academicSection{
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .workSection {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .skillsSection {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.languagesSection{
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
