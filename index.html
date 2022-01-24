@@ -20,37 +20,50 @@
         document.body.scrollTop = 0; // For Safari
         document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Ope
       }
-
-
     }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      var x = document.getElementById("CV");
+      x.style.display = "none";
+    }
+
   </script>
 </head>
 
 <body>
   <section class="headerSection">
-    <header>
+    <header class="nameHeader">
       <h1 id="headerTitle">I'm Christophe</h1>
     </header>
-    <img src="images/cloud.png" alt="cloud" width="45%">
-    <main>
-      <p>Full-stack Mobile App & Web Developer. <br>Co-Creator of <strong><a href="https://www.torfie.com" target="_blank">Torfie</a></strong>.</p>
+    <main class="nameHeader">
+      <img src="images/CLTORFIE.png" alt="CL" width="30%">
+
+      <div class="shortDescriptionSection">
+        <div style="width:15%;">
+        </div>
+        <div style="width:50%;">
+          Full-stack Developer
+          <br>
+          Mobile App & Web
+        </div>
+        <div style="width:15%;">
+          <img src="images/cloud.png" alt="cloud" width="60%" style="-webkit-transform: scaleX(-1);
+        transform: scaleX(-1);">
+        </div>
+      </div>
     </main>
   </section>
 
-  <!-- <hr> -->
+  <hr>
 
-  <section class="sectionPerso">
-    <img src="images/ChristopheLengignon.png" alt="" height="200">
-    <p>My other passions are Surfskating 🛹, Drawing 👨🏻‍🎨 & Hiking ⛰</p>
+  <section class="shortcutsSection">
+    <img src="images/cv.png" alt="" onclick="displayCV()" width="10%">
   </section>
 
-  <!-- <hr> -->
-
-  <section>
-    <img src="images/cv.png" alt="" onclick="displayCV()" width="25%">
-  </section>
-
-  <div id="CV" style="display: none;">
+  <div id="CV" class="CV" style="">
     <section class="sectionContent">
       <header>
         <h2>Academic Education</h2>
@@ -210,9 +223,8 @@
         </main>
       </div>
     </section>
+    <button onclick="topFunction()" class="goTopButton" title="Go to top">Top</button>
   </div>
-
-  <!-- <hr> -->
 
   <footer class="footerLinks">
     <table cellspacing='15'>

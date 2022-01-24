@@ -14,7 +14,6 @@ hr {
   border-style: dotted none none;
   border-width:5px;
   color: #8888bb;
-  margin-top: 5%;
   width:20%;
 }
 
@@ -78,8 +77,8 @@ table {
   text-align: left;
 }
 .headerSection{
-  margin: 0 auto 5rem auto;
-  text-align: center;
+  margin: 1rem auto 0 auto;
+
 }
 
 .attributions{
@@ -122,4 +121,50 @@ table {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.CV{
+  display: none;
+}
+
+.goTopButton {
+  background-color: red; /* Set a background color */
+  border: none; /* Remove borders */
+  border-radius: 10px; /* Rounded corners */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  color: #ccf; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  font-size: 18px; /* Increase font size */
+  padding: 15px; /* Some padding */
+  position: fixed; /* Fixed/sticky position */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+}
+
+.goTopButton:hover {
+  background-color: #88b; /* Add a dark-grey background on hover */
+}
+
+.nameHeader{
+  text-align: center;
+}
+
+.shortDescriptionSection{
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.shortcutsSection{
+  margin: 1rem auto 0 auto;
+}
+
+a:visited{
+  color:#ccf;
+}
+
+a:not(visited) {
+  color:yellow;
 }
