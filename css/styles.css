@@ -20,14 +20,14 @@ hr {
 h1{
   color: #ccccff;
   font-family: 'Sacramento', sans-serif;
-  font-size: 7rem;
+  font-size: 5em;
   margin: 0;
 }
 
 h2 {
   color: #8888bb;
   font-family: 'Merriweather';
-  font-size: 2rem;
+  font-size: 2em;
   font-weight: bolder;
   margin: 0;
   text-align: center;
@@ -36,7 +36,22 @@ h2 {
 h3{
   color: #8888bb;
   font-family: 'Merriweather';
-  font-size: 1.5rem;
+  font-size: 1.1em;
+  margin:0;
+}
+
+h4{
+  font-size: 1em;
+  margin:0;
+}
+
+h5{
+  font-size: 0.8em;
+  margin:0;
+}
+
+h6{
+  font-size: 0.7em;
   margin:0;
 }
 
@@ -44,7 +59,7 @@ img {
   vertical-align: middle;
 }
 
-header, main, h4, h5 {
+header, main{
   margin:0;
 }
 
@@ -52,10 +67,10 @@ section, footer {
   bottom: 0;
   color: #ccccff;
   left: 0;
-  margin: 5rem auto 5rem auto ;
+  margin: 0 auto 0 auto ;
   right: 0;
   top:0;
-  width: 75%;
+  width: 85%;
 }
 
 table {
@@ -69,7 +84,7 @@ table {
 }
 
 .sectionContent{
-  width:75%;
+  width:85%;
 }
 
 .table{
@@ -78,7 +93,7 @@ table {
 }
 
 .headerSection{
-  margin: 1rem auto 0 auto;
+  margin: 0 auto 0 auto;
 
 }
 
