@@ -39,9 +39,16 @@
       <h1 id="headerTitle">I'm Christophe</h1>
     </header>
     <main class="nameHeader">
-      <img src="images/CLTORFIE.png" alt="CL" width="30%">
+      <div class="photoSection">
+        <div style="width:15%;">
+          <img src="images/cloud.png" alt="cloud" width="60%">
+        </div>
+        <img src="images/CLTORFIE.png" alt="CL" width="30%">
+        <div style="width:15%;">
+        </div>
+      </div>
 
-      <div class="shortDescriptionSection">
+      <div class="insideSectionHeader">
         <div style="width:15%;">
         </div>
         <div style="width:50%;">
@@ -59,69 +66,53 @@
 
   <hr>
 
-  <section class="shortcutsSection">
+  <section class="insideSectionHeader">
     <img src="images/cv.png" alt="" onclick="displayCV()" width="10%">
+    <!-- <img src="images/cv.png" alt="" onclick="displayCV()" width="10%">
+    <img src="images/cv.png" alt="" onclick="displayCV()" width="10%"> -->
   </section>
 
-  <div id="CV" class="CV" style="">
+  <div id="CV" class="CV" style="display:none;">
     <section class="sectionContent">
       <header>
         <h2>Academic Education</h2>
       </header>
-      <div class="academicSection">
-        <img src="images/education.png" alt="Academic Education" class="sectionIcone">
-        <main>
-          <table cellspacing="15" class="table">
-              <tr>
-                <td>
-                  <table>
-                    <tr>2012</tr>
-                    <tr><h3>PhD in Physics</h3></tr>
-                  </table>
-                </td>
-                <td>
-                  <table>
-                    <tr>
-                      <td>Monitoring of hydroxyl free radicals by Off-Axis Integrated Cavity Output Spectroscopy</td>
-                    </tr>
-                    <tr>
-                      <td><i>Université du Littoral Côte d'Opale - Dunkirk (FR)</i></td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <table>
-                    <tr>2008</tr>
-                    <tr><h3>Master</h3></tr>
-                  </table>
-                </td>
-                <td>
-                  <table>
-                    <tr>
-                      <td>Optics & Detection</td>
-                    </tr>
-                    <tr>
-                      <td><i>Université de Rouen Normandie - Rouen (FR)</i></td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-              <tr>
-                <td>2005 <h3>Bachelor</h3></td>
-                <td>
-                  <table>
-                    <tr>
-                      <td>Mechanics & Physics of Materials</td>
-                    </tr>
-                    <tr>
-                      <td><i>Université de Rouen Normandie - Rouen (FR)</i></td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-            </table>
+      <div class="insideSection">
+        <div style="width:15%;">
+          <img src="images/education.png" alt="Academic Education" class="sectionIcone">
+        </div>
+        <div style="width:5%;"></div>
+        <main style="width:70%;">
+          <div class="row">
+            <div class="firstColumn">
+              <h3>PhD in Physics</h3>
+              2012
+            </div>
+            <div class="secondColumn">
+              <h4>Monitoring of hydroxyl free radicals by Off-Axis Integrated Cavity Output Spectroscopy</h4>
+              <h5>Université du Littoral Côte d'Opale - Dunkirk (FR)</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="firstColumn">
+              <h3>Master</h3>
+              2008
+            </div>
+            <div class="secondColumn">
+              <h4>Optics & Detection</h4>
+              <h5>Université de Rouen Normandie - Rouen (FR)</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="firstColumn">
+              <h3>Bachelor</h3>
+              2005
+            </div>
+            <div class="secondColumn">
+              <h4>Mechanics & Materials Physics</h4>
+              <h5>Université de Rouen Normandie - Rouen (FR)</h5>
+            </div>
+          </div>
         </main>
       </div>
     </section>
@@ -132,10 +123,12 @@
       <header>
         <h2>Work Experience</h2>
       </header>
-      <div class="workSection">
-        <img src="images/skills.png" alt="Working Experiences"  class="sectionIcone">
-
-        <main>
+      <div class="insideSection">
+        <div style="width:15%;">
+          <img src="images/skills.png" alt="Working Experiences"  class="sectionIcone">
+        </div>
+        <div style="width:5%;"></div>
+        <main style="width:70%;">
           <table cellspacing="15"  class="table">
             <tr>
               <td>Since 2020</td>
@@ -164,9 +157,12 @@
       <header>
         <h2>Skills</h2>
       </header>
-      <div class="skillsSection">
-        <img src="images/coding-language.png" alt="Coding Languages"  class="sectionIcone">
-        <main>
+      <div class="insideSection">
+        <div style="width:15%;">
+          <img src="images/coding-language.png" alt="Coding Languages"  class="sectionIcone">
+        </div>
+        <div style="width:5%;"></div>
+        <main style="width:70%;">
           <table cellspacing="15"  class="table">
             <tr>
               <td><b>iOS</b> Development</td>
@@ -203,9 +199,12 @@
       <header>
         <h2>Languages</h2>
       </header>
-      <div class="languagesSection">
-      <img src="images/languages.png" alt="Languages Spoken"  class="sectionIcone">
-        <main>
+      <div class="insideSection">
+        <div style="width:15%;">
+          <img src="images/languages.png" alt="Languages Spoken"  class="sectionIcone">
+        </div>
+        <div style="width:5%;"></div>
+        <main style="width:70%;">
           <table cellspacing="15"  class="table">
             <tr>
               <td>French</td>
@@ -257,7 +256,6 @@
         </td>
       </tr>
     </table>
-
   </footer>
 
 </body>
