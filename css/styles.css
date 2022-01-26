@@ -1,8 +1,10 @@
 
-/* light: ccccff
-middle: 8888bb
-notsodark: 444477
-dark: 000033 */
+/*
+#120078
+#9D0191
+#FD3A69
+#F1FA3C
+*/
 
 body {
   background-color: #000033;
@@ -10,15 +12,24 @@ body {
   font-size: 1.1em;
   margin: 0;
 }
+
 hr {
+  background-color:transparent;
   border-style: dotted none none;
-  border-width:5px;
-  color: #8888bb;
+  border-width: thick;
+  border-color: #F1FA3C;
+  margin-left: auto;
+  margin-right: auto;
+  opacity:1;
   width:20%;
 }
 
+p {
+  margin: 0.5rem;
+}
+
 h1{
-  color: #ccccff;
+  color: #ccf;
   font-family: 'Sacramento', sans-serif;
   font-size: 5em;
   margin: 0;
@@ -27,7 +38,7 @@ h1{
 h2 {
   color: #8888bb;
   font-family: 'Merriweather';
-  font-size: 2em;
+  font-size: 1.8em;
   font-weight: bolder;
   margin: 0;
   text-align: center;
@@ -65,9 +76,9 @@ header, main{
 
 section, footer {
   bottom: 0;
-  color: #ccccff;
+  color: #ccf;
   left: 0;
-  margin: 0 auto 0 auto ;
+  margin: 1rem auto 0 auto ;
   right: 0;
   top:0;
   width: 85%;
@@ -168,7 +179,7 @@ a:visited{
 }
 
 a:not(visited) {
-  color:yellow;
+  color:#F1FA3C;
 }
 
 .row{
@@ -185,4 +196,17 @@ a:not(visited) {
 
 .secondColumn{
   width:70%;
+}
+
+.shortcut{
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  width:10%;
+}
+
+.landingPageShortcuts{
+  margin: 0 auto;
+  text-align: center;
 }
