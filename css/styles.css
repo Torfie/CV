@@ -15,9 +15,9 @@ body {
 
 hr {
   background-color:transparent;
+  border-color: #F1FA3C;
   border-style: dotted none none;
   border-width: thick;
-  border-color: #F1FA3C;
   margin-left: auto;
   margin-right: auto;
   opacity:1;
